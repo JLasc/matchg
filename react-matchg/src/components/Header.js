@@ -1,7 +1,7 @@
 import React from 'react'
 import darkhoney from "../assets/images/dark-honeycomb.png"
 
-const Header = () => {
+const Header = props => {
     const style = {
         matchFont: {
             fontSize: "2.5vw",
@@ -23,7 +23,7 @@ const Header = () => {
             <nav style={style.navBg} className="navbar navbar-light justify-content-between">
                 <a className="navbar-brand navFontSize" style={style.matchFont}> Matching Game</a>
                 <span className='mr-sm-1 navFontSize' style={{ fontSize: "2.5vw" }}>Click an image to begin!</span>
-                <span className="mr-sm-2 navFontSize" style={{ fontSize: '2.5vw' }}>Score: 0 | Top Score: 0</span>
+                <span className="mr-sm-2 navFontSize" style={{ fontSize: '2.5vw' }}>Score: {props.score} | Top Score: {props.currScore} </span>
             </nav>
             <div class="jumbotron jumbotron-fluid text-white" style={style.jumboStyle}>
                 <div class="container text-center">
