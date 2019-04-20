@@ -1,4 +1,10 @@
 
+@media only screen and (min-width: 0px) and (max-width: 487px) {
+    img {
+        width: 100%;
+    }
+  }
+  
 .header-navbg{
     background-color: #575366;
     color: #D1E3DD;
@@ -27,13 +33,6 @@ div.container.drop {
     grid-gap: 1rem;
 }
 
-/* Mobile Styles */
-@media only screen and (min-width: 0px) and (max-width: 487px) {
-    img {
-        width: 100%;
-    }
-  }
-  
   
 .footer-style{
     height: 100px;
