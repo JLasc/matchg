@@ -1,31 +1,14 @@
 import React from 'react'
-import darkhoney from "../assets/images/dark-honeycomb.png"
 
 const Header = props => {
-    const style = {
-        matchFont: {
-            fontSize: "2.5vw",
-            fontWeight: "bold",
-            fontFamily: "Broadway, serif",
-            letterSpacing: ".5px"
-        },
-        navBg: {
-            backgroundColor: "#575366",
-            color: "#D1E3DD",
-        },
-        jumboStyle: {
-            margin: "0px",
-            backgroundImage: `url(${darkhoney})`
-        }
-    }
     return (
         <div>
-            <nav style={style.navBg} className="navbar navbar-light justify-content-between">
-                <a className="navbar-brand navFontSize" style={style.matchFont}> Matching Game</a>
-                <span className='mr-sm-1 navFontSize' style={{ fontSize: "2.5vw" }}>Click an image to begin!</span>
-                <span className="mr-sm-2 navFontSize" style={{ fontSize: '2.5vw' }}>Score: {props.score} | Top Score: {props.currScore} </span>
+            <nav className="navbar navbar-light justify-content-between header-navbg">
+                <a className="navbar-brand navFontSize header-match-title header-font-size" > Matching Game</a>
+                <span className='mr-sm-1 navFontSize header-font-size'>Click an image to begin!</span>
+                <span className='mr-sm-2 navFontSize header-font-size'>Score: {props.score} | Top Score: {props.currScore} </span>
             </nav>
-            <div class="jumbotron jumbotron-fluid text-white" style={style.jumboStyle}>
+            <div class="jumbotron jumbotron-fluid text-white jumboBg">
                 <div class="container text-center">
                     <p class="lead">Click on an image to earn points! Do not click the same picture twice.</p>
                 </div>
