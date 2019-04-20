@@ -3,7 +3,9 @@ body {
     padding: 0;
 }
 
-
+.navFontSize{
+    font-size: 3vw;
+}
 
 /* Header Section */
 .header-style {
@@ -49,7 +51,7 @@ body {
 /* Backdrop Section */
 .backdrop-style {
     height: 980px;
-    background-color:#32292F;
+    background-color:black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,24 +59,33 @@ body {
 
 .card-holder {
     height: 850px;
-    width: 1060px;
     background-color: rgba(255, 255, 255, 0.23);
-    display: flex;
+/*     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     /* justify-content: center;
     align-items: center; */
 }
 
 
 /* Card Section */
-.card-box {
+img {
     height: 160px;
     width: 160px;
-    background-color: white;
+    margin: 10px;
 }
 
 
+/* Footer section */
+.footer-style {
+    height: 50px;
+    background-color: #575366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
+.footer-text {
+    color: white;
+}
