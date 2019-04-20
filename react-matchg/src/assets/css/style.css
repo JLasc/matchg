@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Header Section */
+.header-style {
+    background-color: #575366;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #D1E3DD;
+}
+
+.header-title{
+    font-family: Broadway, serif;
+    font-size: 50px;
+    color: #D1E3DD;
+    letter-spacing: 2rem;
+}
+
+@media only screen and (max-width: 550px) {
+    .header-title{
+        font-size: 15px;
+        letter-spacing: 0;
+        text-transform: lowercase;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 750px){
+    .header-title{
+        font-size: 20px;
+        letter-spacing: 1rem;
+    }
+}
+  
+
+  /* Tablet Styles */
+  @media only screen and (max-width: 960px) {
+    .header-title {
+        font-size: 36px;
+    }
+  }
+
+
+/* Backdrop Section */
+.backdrop-style {
+    height: 980px;
+    background-color:#32292F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-holder {
+    height: 850px;
+    width: 1060px;
+    background-color: rgba(255, 255, 255, 0.23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+
+/* Card Section */
+.card-box {
+    height: 160px;
+    width: 160px;
+    background-color: white;
+}
+
+
+
+
