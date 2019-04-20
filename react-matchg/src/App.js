@@ -8,22 +8,19 @@ import './assets/css/style.css'
 class App extends Component {
   state = {
     score: 0,
-    currScore: 0
+    currScore: 0,
+    dataArr: data
   }
-
-
 
   render() {
     return (
       <div>
         <Header score={this.state.score} currScore={this.state.currScore} />
-        <ImageCard list={data} />
+        <ImageCard data={data} />
         <Footer />
       </div>
     );
   }
 }
-
-
 
 export default App;
