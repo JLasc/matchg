@@ -1,68 +1,24 @@
-import React, { Component } from 'react'
-import Card from './Card'
+import React from 'react'
 
 
 
-class Backdrop extends Component {
-    render() {
-        return (
-            <div className='backdrop-style'>
-                <div className='card-holder container'>
-                    <div class='row'>
-                        <div class='col-xs-3'>
-                            <img src='https://via.placeholder.com/160' />
-                        </div>
-                        <div class='col-xs-3'>
-                            <img src='https://via.placeholder.com/160' />
-                        </div>
-
-                        <div class='col-xs-3'>
-                            <img src='https://via.placeholder.com/160' />
-                        </div>
-
-                        <div class='col-xs-3'>
-                            <img src='https://via.placeholder.com/160' />
-                        </div>
-                    </div>
-                    <div class='row'>
-                        <div class='col-xs-3'>
-                            <img src='https://via.placeholder.com/160' />
-                        </div>
-                        <div class='col-xs-3'>
-                            <img src='https://via.placeholder.com/160' />
-                        </div>
-
-                        <div class='col-xs-3'>
-                            <img src='https://via.placeholder.com/160' />
-                        </div>
-
-                        <div class='col-xs-3'>
-                            <img src='https://via.placeholder.com/160' />
-                        </div>
-                    </div>
-                    <div class='row'>
-                        <div class='col-xs-3'>
-                            <img src='https://via.placeholder.com/160' />
-                        </div>
-                        <div class='col-xs-3'>
-                            <img src='https://via.placeholder.com/160' />
-                        </div>
-
-                        <div class='col-xs-3'>
-                            <img src='https://via.placeholder.com/160' />
-                        </div>
-
-                        <div class='col-xs-3'>
-                            <img src='https://via.placeholder.com/160' />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        )
-    }
+const Backdrop = () => {
+    return (
+        <div className='container drop'>
+            <img src='http://via.placeholder.com/160' />
+            <img src='http://via.placeholder.com/160' />
+            <img src='http://via.placeholder.com/160' />
+            <img src='http://via.placeholder.com/160' />
+            <img src='http://via.placeholder.com/160' />
+            <img src='http://via.placeholder.com/160' />
+            <img src='http://via.placeholder.com/160' />
+            <img src='http://via.placeholder.com/160' />
+            <img src='http://via.placeholder.com/160' />
+            <img src='http://via.placeholder.com/160' />
+            <img src='http://via.placeholder.com/160' />
+            <img src='http://via.placeholder.com/160' />
+        </div>
+    )
 }
-
-
-
 
 export default Backdrop
