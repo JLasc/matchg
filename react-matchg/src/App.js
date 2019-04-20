@@ -1,28 +1,29 @@
 import React, { Component } from 'react';
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Backdrop from './components/Backdrop'
+import ImageCard from './components/ImageCard'
+import data from './assets/scripts/list.json'
 import './assets/css/style.css'
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-
-    state: {
-
-    }
+  state = {
+    score: 0,
+    currScore: 0
   }
+
 
 
   render() {
     return (
       <div>
-        <Header />
-        <Backdrop />
+        <Header score={this.state.score} currScore={this.state.currScore} />
+        <ImageCard list={data} />
         <Footer />
       </div>
     );
   }
 }
+
+
 
 export default App;
