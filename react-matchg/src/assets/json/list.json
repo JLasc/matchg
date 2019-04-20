@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "src": "./images/arryn.png",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "src": "./images/baratheon.png",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "src": "./images/bolton.png",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "src": "./images/frey.png",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "src": "./images/greyjoy.png",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "src": "./images/lannister.png",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "src": "./images/martell.png",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "src": "./images/mormont.png",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "src": "./images/stark.png",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "src": "./images/targaryen.png",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "src": "./images/tully.png",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "src": "./images/tyrell.png",
+        "clicked": false
+    }
+]
