@@ -3,7 +3,7 @@ import React from 'react'
 
 const Card = props => {
     return (
-        <div className='card-box'></div>
+        <img className='card-box rounded float-left' src='https://via.placeholder.com/200'></img>
     )
 }
 
