@@ -21,6 +21,8 @@ class App extends Component {
     console.log(clickedImage)
   }
 
+
+
   render() {
     const ImageCard = this.state.dataArr.map((item, index) => {
       return (
