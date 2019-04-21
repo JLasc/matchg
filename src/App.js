@@ -79,9 +79,7 @@ class App extends Component {
 
     if (clickedImage[0].clicked === false) {
       clickedImage[0].clicked = true
-      this.setState({
-        score: this.state.score += 1,
-      })
+      this.setState({ score: this.state.score += 1 })
       this.shuffle(data)
 
     } else if (this.state.score === 12) {
