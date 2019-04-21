@@ -1,13 +1,13 @@
 {
-  "main.css": "/matchg/static/css/main.a74f5f27.chunk.css",
-  "main.js": "/matchg/static/js/main.d8cac009.chunk.js",
-  "main.js.map": "/matchg/static/js/main.d8cac009.chunk.js.map",
+  "main.css": "/matchg/static/css/main.545f1e76.chunk.css",
+  "main.js": "/matchg/static/js/main.48fa0566.chunk.js",
+  "main.js.map": "/matchg/static/js/main.48fa0566.chunk.js.map",
   "runtime~main.js": "/matchg/static/js/runtime~main.e87327da.js",
   "runtime~main.js.map": "/matchg/static/js/runtime~main.e87327da.js.map",
   "static/js/2.884c28c3.chunk.js": "/matchg/static/js/2.884c28c3.chunk.js",
   "static/js/2.884c28c3.chunk.js.map": "/matchg/static/js/2.884c28c3.chunk.js.map",
   "index.html": "/matchg/index.html",
-  "precache-manifest.89859f39b87870745849b6d0960cec27.js": "/matchg/precache-manifest.89859f39b87870745849b6d0960cec27.js",
+  "precache-manifest.d87dcbfd416121936c33e026251c62ce.js": "/matchg/precache-manifest.d87dcbfd416121936c33e026251c62ce.js",
   "service-worker.js": "/matchg/service-worker.js",
-  "static/css/main.a74f5f27.chunk.css.map": "/matchg/static/css/main.a74f5f27.chunk.css.map"
+  "static/css/main.545f1e76.chunk.css.map": "/matchg/static/css/main.545f1e76.chunk.css.map"
 }
