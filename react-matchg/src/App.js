@@ -3,7 +3,6 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Alert from './components/Alert'
 import data from './assets/json/list.json'
-import './assets/scripts/scripts'
 import './assets/css/style.css'
 
 
