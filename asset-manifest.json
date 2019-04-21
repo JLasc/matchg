@@ -1,5 +1,5 @@
 {
-  "main.css": "/matchg/static/css/main.545f1e76.chunk.css",
+  "main.css": "/matchg/static/css/main.55a633c7.chunk.css",
   "main.js": "/matchg/static/js/main.48fa0566.chunk.js",
   "main.js.map": "/matchg/static/js/main.48fa0566.chunk.js.map",
   "runtime~main.js": "/matchg/static/js/runtime~main.e87327da.js",
@@ -7,7 +7,7 @@
   "static/js/2.884c28c3.chunk.js": "/matchg/static/js/2.884c28c3.chunk.js",
   "static/js/2.884c28c3.chunk.js.map": "/matchg/static/js/2.884c28c3.chunk.js.map",
   "index.html": "/matchg/index.html",
-  "precache-manifest.d87dcbfd416121936c33e026251c62ce.js": "/matchg/precache-manifest.d87dcbfd416121936c33e026251c62ce.js",
+  "precache-manifest.5a74c1fe993965502a409a9262d69510.js": "/matchg/precache-manifest.5a74c1fe993965502a409a9262d69510.js",
   "service-worker.js": "/matchg/service-worker.js",
-  "static/css/main.545f1e76.chunk.css.map": "/matchg/static/css/main.545f1e76.chunk.css.map"
+  "static/css/main.55a633c7.chunk.css.map": "/matchg/static/css/main.55a633c7.chunk.css.map"
 }
