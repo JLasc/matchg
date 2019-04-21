@@ -4,7 +4,7 @@ const Header = props => {
     return (
         <div>
             <nav className="navbar navbar-light justify-content-between header-navbg">
-                <a className="navbar-brand navFontSize header-match-title header-font-size" > Matching Game</a>
+                <a className="navbar-brand navFontSize header-match-title header-font-size" > Memory Game</a>
                 <span className='mr-sm-2 navFontSize header-font-size'>Score: {props.score} | Top Score: {props.topScore} </span>
             </nav>
             <div class="jumbotron jumbotron-fluid text-white jumboBg">
